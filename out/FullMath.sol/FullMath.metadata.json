@@ -1,0 +1,62 @@
+{
+  "compiler": {
+    "version": "0.8.26+commit.8a97fa7a"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "remappings": [
+      "@fhenixprotocol/cofhe-contracts/=node_modules/@fhenixprotocol/cofhe-contracts/",
+      "@fhenixprotocol/cofhe-mock-contracts/=node_modules/@fhenixprotocol/cofhe-mock-contracts/",
+      "@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+      "@uniswap/v4-core/=node_modules/@uniswap/v4-core/",
+      "ds-test/=node_modules/@uniswap/v4-core/lib/solmate/lib/ds-test/",
+      "erc4626-tests/=node_modules/@uniswap/v4-core/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=node_modules/@uniswap/v4-periphery/lib/permit2/lib/forge-gas-snapshot/",
+      "forge-std/=node_modules/forge-std/src/",
+      "hardhat/=node_modules/hardhat/",
+      "openzeppelin-contracts/=node_modules/@uniswap/v4-core/lib/openzeppelin-contracts/",
+      "permit2/=node_modules/@uniswap/v4-periphery/lib/permit2/",
+      "solmate/=node_modules/@uniswap/v4-core/lib/solmate/",
+      "v4-core/=node_modules/@uniswap/v4-periphery/lib/v4-core/",
+      "v4-periphery/=node_modules/@uniswap/v4-periphery/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "compilationTarget": {
+      "node_modules/@uniswap/v4-core/src/libraries/FullMath.sol": "FullMath"
+    },
+    "evmVersion": "cancun",
+    "libraries": {},
+    "viaIR": true
+  },
+  "sources": {
+    "node_modules/@uniswap/v4-core/src/libraries/FullMath.sol": {
+      "keccak256": "0x4fc73a00817193fd3cac1cc03d8167d21af97d75f1815a070ee31a90c702b4c2",
+      "urls": [
+        "bzz-raw://c3b2d66d36b1ad56b1ab6e2eb8a816740877b40b461c93f125e88621c8378e52",
+        "dweb:/ipfs/QmPGvMZzKQvNiWKd8aRzzdW7oAizwrMgcMtnaworDkVHFC"
+      ],
+      "license": "MIT"
+    }
+  },
+  "version": 1
+}

@@ -1,0 +1,101 @@
+{
+  "compiler": {
+    "version": "0.8.26+commit.8a97fa7a"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "inputs": [
+          {
+            "internalType": "uint160",
+            "name": "sqrtPriceX96",
+            "type": "uint160"
+          }
+        ],
+        "type": "error",
+        "name": "InvalidSqrtPrice"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "int24",
+            "name": "tick",
+            "type": "int24"
+          }
+        ],
+        "type": "error",
+        "name": "InvalidTick"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "remappings": [
+      "@fhenixprotocol/cofhe-contracts/=node_modules/@fhenixprotocol/cofhe-contracts/",
+      "@fhenixprotocol/cofhe-mock-contracts/=node_modules/@fhenixprotocol/cofhe-mock-contracts/",
+      "@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+      "@uniswap/v4-core/=node_modules/@uniswap/v4-core/",
+      "ds-test/=node_modules/@uniswap/v4-core/lib/solmate/lib/ds-test/",
+      "erc4626-tests/=node_modules/@uniswap/v4-core/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=node_modules/@uniswap/v4-periphery/lib/permit2/lib/forge-gas-snapshot/",
+      "forge-std/=node_modules/forge-std/src/",
+      "hardhat/=node_modules/hardhat/",
+      "openzeppelin-contracts/=node_modules/@uniswap/v4-core/lib/openzeppelin-contracts/",
+      "permit2/=node_modules/@uniswap/v4-periphery/lib/permit2/",
+      "solmate/=node_modules/@uniswap/v4-core/lib/solmate/",
+      "v4-core/=node_modules/@uniswap/v4-periphery/lib/v4-core/",
+      "v4-periphery/=node_modules/@uniswap/v4-periphery/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "compilationTarget": {
+      "node_modules/@uniswap/v4-core/src/libraries/TickMath.sol": "TickMath"
+    },
+    "evmVersion": "cancun",
+    "libraries": {},
+    "viaIR": true
+  },
+  "sources": {
+    "node_modules/@uniswap/v4-core/src/libraries/BitMath.sol": {
+      "keccak256": "0x51b9be4f5c4fd3e80cbc9631a65244a2eb2be250b6b7f128a2035080e18aee8d",
+      "urls": [
+        "bzz-raw://fe98bbd5498e912146b9319827fc63621eb66ff55d5baae0fa02a7a972ab8d1e",
+        "dweb:/ipfs/QmY5hCuyrtgsJtk4AavrxcvBkRrChfr4N6ZnhdC8roPpNi"
+      ],
+      "license": "MIT"
+    },
+    "node_modules/@uniswap/v4-core/src/libraries/CustomRevert.sol": {
+      "keccak256": "0x111ed3031b6990c80a93ae35dde6b6ac0b7e6af471388fdd7461e91edda9b7de",
+      "urls": [
+        "bzz-raw://c9ea883c98d6ae1829160d0977bb5195761cfd5bc81692d0a941f45717f594cd",
+        "dweb:/ipfs/QmZPwxzaeMNv536wzrAMrMswu7vMHuqPVpjcqL3YvCMoxt"
+      ],
+      "license": "MIT"
+    },
+    "node_modules/@uniswap/v4-core/src/libraries/TickMath.sol": {
+      "keccak256": "0x4e1a11e154eb06106cb1c4598f06cca5f5ca16eaa33494ba2f0e74981123eca8",
+      "urls": [
+        "bzz-raw://a79a57f7b240783b045168d1c4f774ac1812caf8f9a83cb6959a86b0b07b6c70",
+        "dweb:/ipfs/QmTb5kvxwDNW8jDuQaqdJ445cCFejNkUqEB17Bjo8UBiva"
+      ],
+      "license": "MIT"
+    }
+  },
+  "version": 1
+}

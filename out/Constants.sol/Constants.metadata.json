@@ -1,0 +1,219 @@
+{
+  "compiler": {
+    "version": "0.8.26+commit.8a97fa7a"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "SQRT_PRICE_10000_100",
+        "outputs": [
+          {
+            "internalType": "uint160",
+            "name": "",
+            "type": "uint160"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "SQRT_PRICE_1000_100",
+        "outputs": [
+          {
+            "internalType": "uint160",
+            "name": "",
+            "type": "uint160"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "SQRT_PRICE_1010_100",
+        "outputs": [
+          {
+            "internalType": "uint160",
+            "name": "",
+            "type": "uint160"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "SQRT_PRICE_101_100",
+        "outputs": [
+          {
+            "internalType": "uint160",
+            "name": "",
+            "type": "uint160"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "SQRT_PRICE_121_100",
+        "outputs": [
+          {
+            "internalType": "uint160",
+            "name": "",
+            "type": "uint160"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "SQRT_PRICE_1_1",
+        "outputs": [
+          {
+            "internalType": "uint160",
+            "name": "",
+            "type": "uint160"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "SQRT_PRICE_1_2",
+        "outputs": [
+          {
+            "internalType": "uint160",
+            "name": "",
+            "type": "uint160"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "SQRT_PRICE_1_4",
+        "outputs": [
+          {
+            "internalType": "uint160",
+            "name": "",
+            "type": "uint160"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "SQRT_PRICE_2_1",
+        "outputs": [
+          {
+            "internalType": "uint160",
+            "name": "",
+            "type": "uint160"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "SQRT_PRICE_4_1",
+        "outputs": [
+          {
+            "internalType": "uint160",
+            "name": "",
+            "type": "uint160"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "SQRT_PRICE_99_100",
+        "outputs": [
+          {
+            "internalType": "uint160",
+            "name": "",
+            "type": "uint160"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "SQRT_PRICE_99_1000",
+        "outputs": [
+          {
+            "internalType": "uint160",
+            "name": "",
+            "type": "uint160"
+          }
+        ]
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "remappings": [
+      "@fhenixprotocol/cofhe-contracts/=node_modules/@fhenixprotocol/cofhe-contracts/",
+      "@fhenixprotocol/cofhe-mock-contracts/=node_modules/@fhenixprotocol/cofhe-mock-contracts/",
+      "@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+      "@uniswap/v4-core/=node_modules/@uniswap/v4-core/",
+      "ds-test/=node_modules/@uniswap/v4-core/lib/solmate/lib/ds-test/",
+      "erc4626-tests/=node_modules/@uniswap/v4-core/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=node_modules/@uniswap/v4-periphery/lib/permit2/lib/forge-gas-snapshot/",
+      "forge-std/=node_modules/forge-std/src/",
+      "hardhat/=node_modules/hardhat/",
+      "openzeppelin-contracts/=node_modules/@uniswap/v4-core/lib/openzeppelin-contracts/",
+      "permit2/=node_modules/@uniswap/v4-periphery/lib/permit2/",
+      "solmate/=node_modules/@uniswap/v4-core/lib/solmate/",
+      "v4-core/=node_modules/@uniswap/v4-periphery/lib/v4-core/",
+      "v4-periphery/=node_modules/@uniswap/v4-periphery/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "compilationTarget": {
+      "node_modules/@uniswap/v4-core/test/utils/Constants.sol": "Constants"
+    },
+    "evmVersion": "cancun",
+    "libraries": {},
+    "viaIR": true
+  },
+  "sources": {
+    "node_modules/@uniswap/v4-core/test/utils/Constants.sol": {
+      "keccak256": "0x19c8d60baec46e1d43fa26f852718d4955154e844be14971e0597a63c22a9d43",
+      "urls": [
+        "bzz-raw://9bebdabeab512f3ca999c856641e3fa0d7b86082a01cf826f8647e188e0b35d3",
+        "dweb:/ipfs/QmWLFXaTz4Wejd3ZHcyTMDEW8mqUzCfQahQxuVtryxM5Na"
+      ],
+      "license": "UNLICENSED"
+    }
+  },
+  "version": 1
+}

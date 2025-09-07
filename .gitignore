@@ -1,0 +1,13 @@
+node_modules/
+
+.claude/
+
+cache/
+
+
+context/
+
+frontend/
+
+
+
