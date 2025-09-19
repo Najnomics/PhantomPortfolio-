@@ -9,6 +9,8 @@ import {PortfolioToken} from "./utils/PortfolioToken.sol";
 import {CoFheTest} from "@fhenixprotocol/cofhe-mock-contracts/CoFheTest.sol";
 import {FHE, euint128, euint64, euint32, ebool, InEuint128, InEuint64, InEuint32} from "@fhenixprotocol/cofhe-mock-contracts/CoFheTest.sol";
 import {PoolKey} from "@uniswap/v4-core/src/types/PoolKey.sol";
+import {Hooks} from "@uniswap/v4-core/src/libraries/Hooks.sol";
+import {IPoolManager} from "@uniswap/v4-core/src/interfaces/IPoolManager.sol";
 
 contract SimpleCoverageTest is Test, CoFheTest {
     PhantomPortfolio public hook;
@@ -20,25 +22,21 @@ contract SimpleCoverageTest is Test, CoFheTest {
     
     function setUp() public {
         // Deploy mock pool manager
-        address poolManager = address(0x1234567890123456789012345678901234567890);
+        IPoolManager poolManager = IPoolManager(address(0x1234567890123456789012345678901234567890));
         
         // Deploy tokens
         token1 = new PortfolioToken("Token1", "TK1", 18);
         token2 = new PortfolioToken("Token2", "TK2", 18);
         token3 = new PortfolioToken("Token3", "TK3", 18);
         
-        // Deploy hook with proper flags
-        bytes32 salt = bytes32(uint256(1));
-        bytes memory bytecode = abi.encodePacked(
-            type(PhantomPortfolio).creationCode,
-            abi.encode(poolManager)
-        );
+        // Deploy hook using deployCodeTo with proper flags (same as working tests)
+        uint160 flags = uint160(
+            Hooks.BEFORE_SWAP_FLAG | Hooks.AFTER_SWAP_FLAG
+        ) ^ (0x4444 << 144); // Namespace to avoid collisions
         
-        address hookAddress;
-        assembly {
-            hookAddress := create2(0, add(bytecode, 0x20), mload(bytecode), salt)
-        }
-        hook = PhantomPortfolio(hookAddress);
+        bytes memory constructorArgs = abi.encode(poolManager);
+        deployCodeTo("PhantomPortfolio.sol:PhantomPortfolio", constructorArgs, address(flags));
+        hook = PhantomPortfolio(address(flags));
         
         portfolioOwner = address(0x1);
         
@@ -92,6 +90,9 @@ contract SimpleCoverageTest is Test, CoFheTest {
         
         // First create a portfolio
         _createTestPortfolio();
+        
+        // Wait for rebalancing to be needed (86401 seconds = 24 hours + 1 second)
+        vm.warp(block.timestamp + 86401);
         
         // Trigger rebalancing
         hook.triggerRebalance(portfolioOwner);
