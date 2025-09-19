@@ -399,71 +399,6 @@
         "inputs": [],
         "stateMutability": "view",
         "type": "function",
-        "name": "SQRT_PRICE_1_1",
-        "outputs": [
-          {
-            "internalType": "uint160",
-            "name": "",
-            "type": "uint160"
-          }
-        ]
-      },
-      {
-        "inputs": [],
-        "stateMutability": "view",
-        "type": "function",
-        "name": "SQRT_PRICE_1_2",
-        "outputs": [
-          {
-            "internalType": "uint160",
-            "name": "",
-            "type": "uint160"
-          }
-        ]
-      },
-      {
-        "inputs": [],
-        "stateMutability": "view",
-        "type": "function",
-        "name": "SQRT_PRICE_1_4",
-        "outputs": [
-          {
-            "internalType": "uint160",
-            "name": "",
-            "type": "uint160"
-          }
-        ]
-      },
-      {
-        "inputs": [],
-        "stateMutability": "view",
-        "type": "function",
-        "name": "SQRT_PRICE_2_1",
-        "outputs": [
-          {
-            "internalType": "uint160",
-            "name": "",
-            "type": "uint160"
-          }
-        ]
-      },
-      {
-        "inputs": [],
-        "stateMutability": "view",
-        "type": "function",
-        "name": "SQRT_PRICE_4_1",
-        "outputs": [
-          {
-            "internalType": "uint160",
-            "name": "",
-            "type": "uint160"
-          }
-        ]
-      },
-      {
-        "inputs": [],
-        "stateMutability": "view",
-        "type": "function",
         "name": "TM_ADMIN",
         "outputs": [
           {
@@ -487,19 +422,6 @@
         ]
       },
       {
-        "inputs": [],
-        "stateMutability": "view",
-        "type": "function",
-        "name": "actionsRouter",
-        "outputs": [
-          {
-            "internalType": "contract ActionsRouter",
-            "name": "",
-            "type": "address"
-          }
-        ]
-      },
-      {
         "inputs": [
           {
             "internalType": "euint64",
@@ -815,10 +737,10 @@
         "inputs": [],
         "stateMutability": "view",
         "type": "function",
-        "name": "claimsRouter",
+        "name": "attacker",
         "outputs": [
           {
-            "internalType": "contract PoolClaimsTest",
+            "internalType": "address",
             "name": "",
             "type": "address"
           }
@@ -1802,31 +1724,6 @@
         ]
       },
       {
-        "inputs": [
-          {
-            "internalType": "contract IPoolManager",
-            "name": "poolManager",
-            "type": "address"
-          }
-        ],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "deployPosm"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "view",
-        "type": "function",
-        "name": "donateRouter",
-        "outputs": [
-          {
-            "internalType": "contract PoolDonateTest",
-            "name": "",
-            "type": "address"
-          }
-        ]
-      },
-      {
         "inputs": [],
         "stateMutability": "view",
         "type": "function",
@@ -1904,6 +1801,32 @@
         ]
       },
       {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "hook",
+        "outputs": [
+          {
+            "internalType": "contract PhantomPortfolio",
+            "name": "",
+            "type": "address"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "hookAddr",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ]
+      },
+      {
         "inputs": [
           {
             "internalType": "uint256",
@@ -1929,7 +1852,7 @@
         "name": "manager",
         "outputs": [
           {
-            "internalType": "contract IPoolManager",
+            "internalType": "address",
             "name": "",
             "type": "address"
           }
@@ -1958,10 +1881,10 @@
         "inputs": [],
         "stateMutability": "view",
         "type": "function",
-        "name": "modifyLiquidityRouter",
+        "name": "nonOwner",
         "outputs": [
           {
-            "internalType": "contract PoolModifyLiquidityTest",
+            "internalType": "address",
             "name": "",
             "type": "address"
           }
@@ -1983,6 +1906,32 @@
             "internalType": "bytes32",
             "name": "",
             "type": "bytes32"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "poolManager",
+        "outputs": [
+          {
+            "internalType": "contract IPoolManager",
+            "name": "",
+            "type": "address"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "portfolioOwner",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
           }
         ]
       },
@@ -2519,45 +2468,6 @@
         "inputs": [],
         "stateMutability": "view",
         "type": "function",
-        "name": "swapRouter",
-        "outputs": [
-          {
-            "internalType": "contract PoolSwapTest",
-            "name": "",
-            "type": "address"
-          }
-        ]
-      },
-      {
-        "inputs": [],
-        "stateMutability": "view",
-        "type": "function",
-        "name": "swapRouterNoChecks",
-        "outputs": [
-          {
-            "internalType": "contract SwapRouterNoChecks",
-            "name": "",
-            "type": "address"
-          }
-        ]
-      },
-      {
-        "inputs": [],
-        "stateMutability": "view",
-        "type": "function",
-        "name": "takeRouter",
-        "outputs": [
-          {
-            "internalType": "contract PoolTakeTest",
-            "name": "",
-            "type": "address"
-          }
-        ]
-      },
-      {
-        "inputs": [],
-        "stateMutability": "view",
-        "type": "function",
         "name": "targetArtifactSelectors",
         "outputs": [
           {
@@ -2682,178 +2592,104 @@
         ]
       },
       {
-        "inputs": [
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "test_CrossPortfolioInteraction"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "test_ErrorHandlingIntegration"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "test_FullPortfolioLifecycle"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "test_GasOptimizationIntegration"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "test_HookCallbackIntegration"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "test_MultiplePortfoliosIntegration"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "test_StateConsistencyIntegration"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "test_StressTestMultipleOperations"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "token0",
+        "outputs": [
           {
-            "internalType": "uint256",
-            "name": "seed",
-            "type": "uint256"
+            "internalType": "contract PortfolioToken",
+            "name": "",
+            "type": "address"
           }
-        ],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "testFuzz_CreatePortfolioWithRandomTokens"
+        ]
       },
       {
-        "inputs": [
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "token1",
+        "outputs": [
           {
-            "internalType": "uint256",
-            "name": "ownerSeed",
-            "type": "uint256"
+            "internalType": "contract PortfolioToken",
+            "name": "",
+            "type": "address"
           }
-        ],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "testFuzz_MultiplePortfolioOwners"
+        ]
       },
       {
-        "inputs": [
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "token2",
+        "outputs": [
           {
-            "internalType": "uint256",
-            "name": "timeOffset",
-            "type": "uint256"
+            "internalType": "contract PortfolioToken",
+            "name": "",
+            "type": "address"
           }
-        ],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "testFuzz_RebalanceTiming"
+        ]
       },
       {
         "inputs": [],
-        "stateMutability": "nonpayable",
+        "stateMutability": "view",
         "type": "function",
-        "name": "test_AccessControl"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_AfterSwapHook"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_BeforeSwapHook"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_CompletePortfolioLifecycle"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_ContractDeployment"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_CreateMultiplePortfolios"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_CreatePhantomPortfolio"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_CreatePortfolioWithEmptyTokenList"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_CreatePortfolioWithInvalidParameters"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_GasUsageRebalancing"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_HookOnlyCallableByPoolManager"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_HookPermissions"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_MaximumTokenCount"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_MaximumToleranceBand"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_MultiplePortfoliosInteraction"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_OverflowProtection"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_PortfolioCounterInitialization"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_ReentrancyProtection"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_TriggerRebalance"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_TriggerRebalanceInactivePortfolio"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_TriggerRebalanceNotNeeded"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_TriggerRebalanceNotOwner"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
-        "name": "test_ZeroToleranceBand"
+        "name": "token3",
+        "outputs": [
+          {
+            "internalType": "contract PortfolioToken",
+            "name": "",
+            "type": "address"
+          }
+        ]
       },
       {
         "inputs": [
@@ -3072,7 +2908,7 @@
       "bytecodeHash": "ipfs"
     },
     "compilationTarget": {
-      "test/ComprehensivePhantomPortfolio.t.sol": "ComprehensivePhantomPortfolioTest"
+      "test/IntegrationPhantomPortfolio.t.sol": "IntegrationPhantomPortfolioTest"
     },
     "evmVersion": "cancun",
     "libraries": {},
@@ -3391,86 +3227,6 @@
       ],
       "license": "MIT"
     },
-    "node_modules/@uniswap/v4-core/lib/solmate/src/auth/Owned.sol": {
-      "keccak256": "0xfedb27d14c508342c33eb067c9a02eabcdb0f9dcf93b04ded1001f580d12d0ea",
-      "urls": [
-        "bzz-raw://1ff52bbee698b9cf9e4574615e6550be0887ccf355f6571e23d6f25b332e79b4",
-        "dweb:/ipfs/QmVorA2apojVRStzS7h8aFccR3Uv32G6HVtBtFHZrE7YXx"
-      ],
-      "license": "AGPL-3.0-only"
-    },
-    "node_modules/@uniswap/v4-core/lib/solmate/src/test/utils/mocks/MockERC20.sol": {
-      "keccak256": "0x525129ccb4103c9ecb8f235618d2ff4a8ffde4b8654f7c17766ad175d10ef466",
-      "urls": [
-        "bzz-raw://45692a21807ba815c0cf0bfc7d633a14a6cb9ba863ab53f18fc639375a72125e",
-        "dweb:/ipfs/QmSrqxyodjDtSU1Dc6G3ScnNc9CFjMnAeHpK8a8guM3nJu"
-      ],
-      "license": "AGPL-3.0-only"
-    },
-    "node_modules/@uniswap/v4-core/lib/solmate/src/tokens/ERC20.sol": {
-      "keccak256": "0xcdfd8db76b2a3415620e4d18cc5545f3d50de792dbf2c3dd5adb40cbe6f94b10",
-      "urls": [
-        "bzz-raw://57b3ab70cde374af1cf2c9888636e8de6cf660f087b1c9abd805e9271e19fa35",
-        "dweb:/ipfs/QmNrLDBAHYFjpjSd12jerm1AdBkDqEYUUaXgnT854BUZ97"
-      ],
-      "license": "AGPL-3.0-only"
-    },
-    "node_modules/@uniswap/v4-core/src/ERC6909.sol": {
-      "keccak256": "0x22476a1c183be1b547a509b3e6906abaccb6408375f798fce805ff7877aca09f",
-      "urls": [
-        "bzz-raw://e85580e1563ea0556705132fb6bd038ca4aa355749039923853ebcb76b7c84e6",
-        "dweb:/ipfs/QmVoxPrbagRKpFdRWoaCSKmStYLZrhNFuedcuyGycSGR7q"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/ERC6909Claims.sol": {
-      "keccak256": "0xf496ef3a5a9bf4f4aa2eec951dbeff09a01ef058bb9f64b1664cf46c9e85cd49",
-      "urls": [
-        "bzz-raw://2a0a97c359a7a4c526ba9fc4ceb20af8050f9cf7886ea7e1f38c9c10b4a3750c",
-        "dweb:/ipfs/QmPy6pCQbvzCdJRqG1thHRSwEZoLBAaLo3KQnueL3wxb8i"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/Extsload.sol": {
-      "keccak256": "0x784074bd04a1541c7c6ace074e30245746133fd37c3ba16b025dce394db986ce",
-      "urls": [
-        "bzz-raw://35f1f4fb306bf01e98b7eca012b85f3ab978b39fa5136193363e2519c4435e51",
-        "dweb:/ipfs/QmeGrjGMt71dJymVhkEadh5CuCW5GxRqNEZLi5AJxvC5tU"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/Exttload.sol": {
-      "keccak256": "0x769ee2733a08112c652274f4b972c45fb56cc46109f233b9a30f81561b15dd54",
-      "urls": [
-        "bzz-raw://dd19e88d50ae77c1ed5581baca1c75b3fb828d0b58cded90188d55c4e336266c",
-        "dweb:/ipfs/Qmc8YM6Tfpwwa4qivHHzRxNdhZzdzGiD7VexWsDvkaQTxG"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/NoDelegateCall.sol": {
-      "keccak256": "0xacb81aecb7c74c86650a035462dae38c313b4b7b5842e14b645f864f61da2b51",
-      "urls": [
-        "bzz-raw://363a0e15fc30ea68a5d52a78772facecde6433ea156e3ec2ce25068c97cd5ad6",
-        "dweb:/ipfs/QmYhWaF3wH71SDx5TZr9qEXXQf5FYQvdjoo3B2qWiAbm18"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/PoolManager.sol": {
-      "keccak256": "0xf9ff5d5e261a21a5e72a01c5badd988beeff437e0f6b82fd56f80be42d727c07",
-      "urls": [
-        "bzz-raw://4a92a25102c73245e1343f0dbc8400b8bac3c464ba064aa5574b9584a12e6c72",
-        "dweb:/ipfs/QmfCcvspZ8XzDeQjEd2FfM76wzkfE9KDgBoqAcqhf3nsnu"
-      ],
-      "license": "BUSL-1.1"
-    },
-    "node_modules/@uniswap/v4-core/src/ProtocolFees.sol": {
-      "keccak256": "0x81362ef1d19670b41cefc2b6f2dc0333b6743fe39a1929edd36bd9b6a1111755",
-      "urls": [
-        "bzz-raw://de483bbd8bf9a53b9644d7f9a6a6fe77ae527b755cf29e1db8725de89e70c7aa",
-        "dweb:/ipfs/Qmex3PcgJGbYsuDNaMXc8mg5fW1DNaPGiNToPpAAzz6GEq"
-      ],
-      "license": "MIT"
-    },
     "node_modules/@uniswap/v4-core/src/interfaces/IExtsload.sol": {
       "keccak256": "0x80b53ca4907d6f0088c3b931f2b72cad1dc4615a95094d96bd0fb8dff8d5ba43",
       "urls": [
@@ -3511,14 +3267,6 @@
       ],
       "license": "MIT"
     },
-    "node_modules/@uniswap/v4-core/src/interfaces/callback/IUnlockCallback.sol": {
-      "keccak256": "0x58c82f2bd9d7c097ed09bd0991fedc403b0ec270eb3d0158bfb095c06a03d719",
-      "urls": [
-        "bzz-raw://91168ca26a10980df2cdc3fbfe8ddf372c002b7ef19e3c59a0c9870d64198f1b",
-        "dweb:/ipfs/QmUSpaM825vd1SwvF38esgbdLgYiPwefKaFERTWvUi6uSK"
-      ],
-      "license": "MIT"
-    },
     "node_modules/@uniswap/v4-core/src/interfaces/external/IERC20Minimal.sol": {
       "keccak256": "0xeccadf1bf69ba2eb51f2fe4fa511bc7bb05bbd6b9f9a3cb8e5d83d9582613e0f",
       "urls": [
@@ -3535,59 +3283,11 @@
       ],
       "license": "MIT"
     },
-    "node_modules/@uniswap/v4-core/src/libraries/BitMath.sol": {
-      "keccak256": "0x51b9be4f5c4fd3e80cbc9631a65244a2eb2be250b6b7f128a2035080e18aee8d",
-      "urls": [
-        "bzz-raw://fe98bbd5498e912146b9319827fc63621eb66ff55d5baae0fa02a7a972ab8d1e",
-        "dweb:/ipfs/QmY5hCuyrtgsJtk4AavrxcvBkRrChfr4N6ZnhdC8roPpNi"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/CurrencyDelta.sol": {
-      "keccak256": "0x80dbd898cf0f90c5c27192689b16c34edc765d6ab21b8358e3bb792c7fef238c",
-      "urls": [
-        "bzz-raw://107698da024313f132d9fe28deb920b5c03d14624889c3ce5720e588f03635bb",
-        "dweb:/ipfs/QmQteUbhj5SsWbvSF6U8niBUSrETqVbEwULc8E7vS4Kbnn"
-      ],
-      "license": "BUSL-1.1"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/CurrencyReserves.sol": {
-      "keccak256": "0x1576616129933fcdf3b684cea33cffd9c95e18fafbd2832a8c48ac3d8526d4c3",
-      "urls": [
-        "bzz-raw://33b050efb9b81803b18f562271e7cca2ec5362c4d505860d6419b4a345636725",
-        "dweb:/ipfs/QmQtFtTwKZ5pFVGD2ENDUXvp7ECFvzqeCuJ1miJcUHdmiX"
-      ],
-      "license": "BUSL-1.1"
-    },
     "node_modules/@uniswap/v4-core/src/libraries/CustomRevert.sol": {
       "keccak256": "0x111ed3031b6990c80a93ae35dde6b6ac0b7e6af471388fdd7461e91edda9b7de",
       "urls": [
         "bzz-raw://c9ea883c98d6ae1829160d0977bb5195761cfd5bc81692d0a941f45717f594cd",
         "dweb:/ipfs/QmZPwxzaeMNv536wzrAMrMswu7vMHuqPVpjcqL3YvCMoxt"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/FixedPoint128.sol": {
-      "keccak256": "0xad236e10853f4b4b20a35a9bb52b857c4fc79874846b7e444e06ead7f2630542",
-      "urls": [
-        "bzz-raw://0de1f9a06520b1a689660943faa14fc0b8344ab41fab9e6012ea34bff4b9b3eb",
-        "dweb:/ipfs/QmRNMPTyko7W6d6KxuTsnDBa9oZgDK4xiwRRq3H9ASTbwy"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/FixedPoint96.sol": {
-      "keccak256": "0xef5c3fd41aee26bb12aa1c32873cfee88e67eddfe7c2b32283786265ac669741",
-      "urls": [
-        "bzz-raw://4de298d02f662a1c36c7be0a150f18c2a161408a5d3e48432e707efd01fac9a4",
-        "dweb:/ipfs/QmSiM4oeMmLVKmAtJXz2feYkv4R9ZcyBpkTRW5Nhw5KDyJ"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/FullMath.sol": {
-      "keccak256": "0x4fc73a00817193fd3cac1cc03d8167d21af97d75f1815a070ee31a90c702b4c2",
-      "urls": [
-        "bzz-raw://c3b2d66d36b1ad56b1ab6e2eb8a816740877b40b461c93f125e88621c8378e52",
-        "dweb:/ipfs/QmPGvMZzKQvNiWKd8aRzzdW7oAizwrMgcMtnaworDkVHFC"
       ],
       "license": "MIT"
     },
@@ -3607,59 +3307,11 @@
       ],
       "license": "MIT"
     },
-    "node_modules/@uniswap/v4-core/src/libraries/LiquidityMath.sol": {
-      "keccak256": "0x000ef2eadcc1eb7b2c18a77655f94e76e0e860f605783484657ef65fd6eda353",
-      "urls": [
-        "bzz-raw://a766b620a7a22798b43c6c1f23b5c6cff0ebf588deb89842bad05208d448cd99",
-        "dweb:/ipfs/QmVKjaFJdzkqA3ey2Byum8iTCMssWVD8MmVC8rw62Tj5WD"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/Lock.sol": {
-      "keccak256": "0x9338be4b5695f1da5f3d3f7a3eeaf7a356c1045458289586ac0cbe9cef77c6d5",
-      "urls": [
-        "bzz-raw://485ec42ed6155469d612a9a0c18068ebfbad74448792a338a435503de3ef1b2c",
-        "dweb:/ipfs/QmVnnv5u74MYatfRmBgrcfFYQcsMAJMG9jQ6ju8UiydKNF"
-      ],
-      "license": "BUSL-1.1"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/NonzeroDeltaCount.sol": {
-      "keccak256": "0x0666ebd5d3528d7d52c48538296367a4cff97a578cf13365c51983fae3219b87",
-      "urls": [
-        "bzz-raw://d27f1be3bd09d85c53d3e6a539dd6529ddd8b2b764ccb47fd7765fc81f9add59",
-        "dweb:/ipfs/QmQdZujNXhKEXQBkKtF5jbdvo1yXMqPDUoBBaF9S5u3Kpm"
-      ],
-      "license": "BUSL-1.1"
-    },
     "node_modules/@uniswap/v4-core/src/libraries/ParseBytes.sol": {
       "keccak256": "0x7533b13f53ee2c2c55500100b22ffd6e37e7523c27874edc98663d53a8672b15",
       "urls": [
         "bzz-raw://82449058634fde28a085f3c59a6a5f412550c02181590593fd84c3e8b329aa17",
         "dweb:/ipfs/Qmev4E9Au6SsE4wsArChCwfg94KhHc5gYsEsZUnjF5sRLa"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/Pool.sol": {
-      "keccak256": "0xb8191707c5913f5e2f589cec5167e3fac4a5b86bd84f61fdba0fbe6a8ce8a3a0",
-      "urls": [
-        "bzz-raw://a609f9c365f05becf61877d9dc767e7825bce8c34607dbfc0f0437a71f6ff407",
-        "dweb:/ipfs/QmThDUzLePs2Hbp6XTpRSHT67rdsjQLhdmS6krm8cpKSey"
-      ],
-      "license": "BUSL-1.1"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/Position.sol": {
-      "keccak256": "0xddab2a831f1befb6abf5567e77c4582169ca8156cf69eb4f22d8e87f7226a3f9",
-      "urls": [
-        "bzz-raw://c79fe61b50f3b70cff503abfa6f5643fcbefb9b794855bee1019b1e6d9c083b2",
-        "dweb:/ipfs/QmbKmYNQesaMz8bo1b7TMHQcAwaDd3eDPrE5pAdPPZTtk5"
-      ],
-      "license": "BUSL-1.1"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/ProtocolFeeLibrary.sol": {
-      "keccak256": "0xf483001899229ab10f5a626fe1c5866134d9e965b48ce6cf55ce0d7f74f7d8ec",
-      "urls": [
-        "bzz-raw://6ba9211a7f69bbb44649c35211eb29d193c09032ec600064ef9d04b4625dd8ba",
-        "dweb:/ipfs/QmQSjQvtguYgMJSkkKRhHjxasfX9xfTbrbcZ1QmjUVb787"
       ],
       "license": "MIT"
     },
@@ -3670,126 +3322,6 @@
         "dweb:/ipfs/QmX4yaaSPdKQzYNRsezjTvZKsubzS8JRTEGFD3fPpTTCcj"
       ],
       "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/SqrtPriceMath.sol": {
-      "keccak256": "0xf8079fe6e3460db495451d06b1705e18f1c4075c1af96a31ad313545f7082982",
-      "urls": [
-        "bzz-raw://582fc51546723a0a8acccf782f69b530bacf9b3ef929458e82569b7121f0b138",
-        "dweb:/ipfs/QmSBXcmqZdFsM7M4sRaiyQAxykCeMNFKyKgBcwSMTw1bcF"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/StateLibrary.sol": {
-      "keccak256": "0x96db333ee126a841dd959e38e452cc59d73583cb0437a1d48b2052e33a74f952",
-      "urls": [
-        "bzz-raw://8672bba1eb69608299b0904f4ff305238eb18479d371c26518f278c9ee184cd0",
-        "dweb:/ipfs/QmTLu3s6ECvsEDHStQv8HTVHYtvkviBbdjPrFJd4SpVRFY"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/SwapMath.sol": {
-      "keccak256": "0x6baa782ae523269c079cc763639a9b91a25fcfa1743c049c76e43741ef494bd9",
-      "urls": [
-        "bzz-raw://035c337e62e05262a5bd5d3bc85bc9a383c1013001216b429f49cf1e129a0812",
-        "dweb:/ipfs/QmU7s4h58Fh2A6mM8yeorZ2ygwEJMQw8zdZLLkHeDoSWxD"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/TickBitmap.sol": {
-      "keccak256": "0x6779f89e28a0b4af6e09d518caf014b7e8fc627400f5561f86fed11635b1458a",
-      "urls": [
-        "bzz-raw://a64dee983106de3be3f968be94368c1e37592f5418aa2a39e8dd358d5a962b0d",
-        "dweb:/ipfs/QmYuECZTiEeQVxDLYx6pBSSnVrg56Apw75bugQiM3FmGwy"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/TickMath.sol": {
-      "keccak256": "0x4e1a11e154eb06106cb1c4598f06cca5f5ca16eaa33494ba2f0e74981123eca8",
-      "urls": [
-        "bzz-raw://a79a57f7b240783b045168d1c4f774ac1812caf8f9a83cb6959a86b0b07b6c70",
-        "dweb:/ipfs/QmTb5kvxwDNW8jDuQaqdJ445cCFejNkUqEB17Bjo8UBiva"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/TransientStateLibrary.sol": {
-      "keccak256": "0x7d1e0875747bd89b32c25f1a48da2766e5f4aff1f671ad5f3c0c07ebbbcb946a",
-      "urls": [
-        "bzz-raw://d76cfeb1cb60595b41ecc51c8a12fb4bf63a7fc733d0b1a2e3adb55abeb1f9d5",
-        "dweb:/ipfs/Qmb8oX7DtsRpw3tTtdWZwGhauj1evq43d3PLwe4nSDAKkV"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/libraries/UnsafeMath.sol": {
-      "keccak256": "0xa6e55e0a43a15df2df471d9972cd48f613d07c663ecb8bbeaf7623f6f99bcce4",
-      "urls": [
-        "bzz-raw://02ea6e13879fc5a5f35149a2f1cd8af3a1f0877ff69101dad53841d16f515572",
-        "dweb:/ipfs/QmcpL4gdG6hL2w1wqs2Vw4J1EFCwBs9T1Qd4p16CtECQkn"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/src/test/ActionsRouter.sol": {
-      "keccak256": "0x14dee9e42a1df016ee93959efbff2989c0f5fc3be2583cc7f220e8c99bc1ca52",
-      "urls": [
-        "bzz-raw://cede28a88b18e6506407d4f35787fb2891a6023a363b15beb5c3af3d57ceaeef",
-        "dweb:/ipfs/QmbwcWHBnD9615BPSpPZ7hTuCCXG9BWHdHQS67KRtfrEqR"
-      ],
-      "license": "UNLICENSED"
-    },
-    "node_modules/@uniswap/v4-core/src/test/PoolClaimsTest.sol": {
-      "keccak256": "0x12833a6562b06737ebb1b08a8a8ef233314f0b9e03129cff3550d9fd4c184986",
-      "urls": [
-        "bzz-raw://09d31189420ccd828f8e529782c9e1e31b0ce3f07f59efb6db5a8848395e7887",
-        "dweb:/ipfs/Qmb4rosxr2DLxUAH6qUDfqVbj1CfnzrDwxfLLjpneMSwRW"
-      ],
-      "license": "UNLICENSED"
-    },
-    "node_modules/@uniswap/v4-core/src/test/PoolDonateTest.sol": {
-      "keccak256": "0x5e517fea38336bb86419f7280d5f80b26fe8cab9eac1cf400e27f87562d3d105",
-      "urls": [
-        "bzz-raw://5528c6a97eefbb94607d1a2aa07b1ec6f9c9b955b5f4a123ee88beabf6a03deb",
-        "dweb:/ipfs/QmYfcaX1vkzjb1s389Rj7VsvCttB5wdarP17vyHWiejbqq"
-      ],
-      "license": "UNLICENSED"
-    },
-    "node_modules/@uniswap/v4-core/src/test/PoolModifyLiquidityTest.sol": {
-      "keccak256": "0x4a3ca2a5ed763efa34d9dfa8b90cafcff6b42a0903c6f20815c1a51e785b3af3",
-      "urls": [
-        "bzz-raw://e47a2fe202e60b0a58fd01acf1d3d021266903f81965302b60cace8a4c7d37d1",
-        "dweb:/ipfs/QmcYmtXwL1F45tFLP2DA5KbU9icmcvj5rJCEkpMHJcwGrK"
-      ],
-      "license": "UNLICENSED"
-    },
-    "node_modules/@uniswap/v4-core/src/test/PoolSwapTest.sol": {
-      "keccak256": "0x3d769a76b948910a1a2321435e8d19156ff767ad3ddbd5abe4fa60d1e9b11ac0",
-      "urls": [
-        "bzz-raw://4bb4ca24457237b3af7a8023f19d667d20a60066cbf911b728968f34b6055753",
-        "dweb:/ipfs/QmXVNWTHDcVbQrf6Y82j9whpWyYmgWvBJqYZ3Vp8to3H6j"
-      ],
-      "license": "UNLICENSED"
-    },
-    "node_modules/@uniswap/v4-core/src/test/PoolTakeTest.sol": {
-      "keccak256": "0xcdc76eb93c349a5f5c30abff0438d5599427ac6f6892e0abf8d0346c46244368",
-      "urls": [
-        "bzz-raw://5d005b6672e38d7c673677be08e041e32670a4a64bd3b92dc07e29d1609c5193",
-        "dweb:/ipfs/QmZVqyEz1BgYNmyAPooef5c77yjj4A2e9ooWfrJ2SducJ2"
-      ],
-      "license": "UNLICENSED"
-    },
-    "node_modules/@uniswap/v4-core/src/test/PoolTestBase.sol": {
-      "keccak256": "0xc3b1c46487231f8416d053652cfb3c773d728705a6a1a542ea48e8d1cca44962",
-      "urls": [
-        "bzz-raw://c2229b5915fcf17c58253b81cd4bbff62f7fbc6df8c370188c771fc40febf15a",
-        "dweb:/ipfs/QmRu2Qb341KpA9k9prYH8buJek6vZiE7bxnyC9UkjVGBxV"
-      ],
-      "license": "UNLICENSED"
-    },
-    "node_modules/@uniswap/v4-core/src/test/SwapRouterNoChecks.sol": {
-      "keccak256": "0xc335bd807d977008a679c6fc5964542544324ef4c243a33c15c81fa38270e575",
-      "urls": [
-        "bzz-raw://72d9c5ed82e70c0e669ff8e9e357ae59826e73e3d96cd11c401c605f0f1c4d0e",
-        "dweb:/ipfs/Qmdrb1MCzw9GhxXado6nQrUBxVbDqNB7D3f7mRTAVQY5f5"
-      ],
-      "license": "UNLICENSED"
     },
     "node_modules/@uniswap/v4-core/src/types/BalanceDelta.sol": {
       "keccak256": "0xa719c8fe51e0a9524280178f19f6851bcc3b3b60e73618f3d60905d35ae5569f",
@@ -3839,46 +3371,6 @@
       ],
       "license": "MIT"
     },
-    "node_modules/@uniswap/v4-core/src/types/Slot0.sol": {
-      "keccak256": "0x8b4912fac7e25ea680056748121113f902d56f8b2640f421d5c38d438db11c1b",
-      "urls": [
-        "bzz-raw://c19b1ff5b951fb54129268d2be37d82c8bb3ea6e29ac9bc78a8a37794fc082b8",
-        "dweb:/ipfs/QmTAQ2mUoiT77hoWJAfn9pyoGy47qaevn45QHrbyovGt2C"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-core/test/utils/Constants.sol": {
-      "keccak256": "0x19c8d60baec46e1d43fa26f852718d4955154e844be14971e0597a63c22a9d43",
-      "urls": [
-        "bzz-raw://9bebdabeab512f3ca999c856641e3fa0d7b86082a01cf826f8647e188e0b35d3",
-        "dweb:/ipfs/QmWLFXaTz4Wejd3ZHcyTMDEW8mqUzCfQahQxuVtryxM5Na"
-      ],
-      "license": "UNLICENSED"
-    },
-    "node_modules/@uniswap/v4-core/test/utils/CurrencySettler.sol": {
-      "keccak256": "0x2569dc02a637111de76e8e8c65f27510e7608273c19652fe6d31d76c983c19b6",
-      "urls": [
-        "bzz-raw://e9fbc9085e011e7208505c8ff7d402e4dba13b5105b25a24eac85b4a5921de58",
-        "dweb:/ipfs/QmPyBSC5JvZrePDjdt2AiNt3EEUXgxX1orvTX1JZidz9PP"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-periphery/lib/permit2/src/interfaces/IAllowanceTransfer.sol": {
-      "keccak256": "0x37f0ac203b6ef605c9533e1a739477e8e9dcea90710b40e645a367f8a21ace29",
-      "urls": [
-        "bzz-raw://e0104d72aeaec1cd66cc232e7de7b7ead08608efcc179491b8a66387614670b0",
-        "dweb:/ipfs/QmfAZDyuNC9FXXbnJUwqHNwmAK6uRrXxtWEytLsxjskPsN"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-periphery/lib/permit2/src/interfaces/IEIP712.sol": {
-      "keccak256": "0xfdccf2b9639070803cd0e4198427fb0df3cc452ca59bd3b8a0d957a9a4254138",
-      "urls": [
-        "bzz-raw://f7c936ac42ce89e827db905a1544397f8bdf46db34cdb6aa1b90dea42fdb4c72",
-        "dweb:/ipfs/QmVgurxo1N31qZqkPBirw9Z7S9tLYmv6jSwQp8R8ur2cBk"
-      ],
-      "license": "MIT"
-    },
     "node_modules/@uniswap/v4-periphery/src/base/ImmutableState.sol": {
       "keccak256": "0x1867c9fa2f9b4fa73bab0fcdc9d19ccef4eeac552273d8b84a170cd1cc90350a",
       "urls": [
@@ -3887,91 +3379,11 @@
       ],
       "license": "MIT"
     },
-    "node_modules/@uniswap/v4-periphery/src/interfaces/IEIP712_v4.sol": {
-      "keccak256": "0xd7f7115476e307a0bfc32a0f0a0f5434e9e5ca62a6c5af1e18b75e48161bb408",
-      "urls": [
-        "bzz-raw://b1600b953556da38a7adc5ad2a2925ec5fb138fecf8eec48743646543195b736",
-        "dweb:/ipfs/QmarZi2aiLVAfHXgnDWV1cCFiZk2DdPW7KJnWHqzuRChJR"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-periphery/src/interfaces/IERC721Permit_v4.sol": {
-      "keccak256": "0x103adbba724ef536abc536fe8a4d7dc12880724c562109b69f2adce4a91fa017",
-      "urls": [
-        "bzz-raw://06f51b5a5a218e0bc866a83e7821be53c9db9de0ca921f16abd3d13ea0eab69d",
-        "dweb:/ipfs/QmbnhLy992hpQZyphTkj7fpr6jKKVva2AzfmLiDZEuqHAk"
-      ],
-      "license": "MIT"
-    },
     "node_modules/@uniswap/v4-periphery/src/interfaces/IImmutableState.sol": {
       "keccak256": "0x36ab3100e87457ecf04887f4f540e34fd7f21d8e3b83880cb679239e60b7b06b",
       "urls": [
         "bzz-raw://7f290c7ce8e4832608d637a51b13dff95abecf6549485448e647a11c8ed01341",
         "dweb:/ipfs/QmfD1R6mTp8j4EjQXmQZW3vCh11EYFjnvoaw8rXRP27mMq"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-periphery/src/interfaces/IMulticall_v4.sol": {
-      "keccak256": "0x336bec303f7ff86497d2679464c5adad5040f412b3d0769ce5e1d2a42f7e2c08",
-      "urls": [
-        "bzz-raw://7734f047d98d331c8abc51ad9f358ceee0a6dcae8d89ac49084b84de0d2d42e7",
-        "dweb:/ipfs/QmWij2h7mU36LsXhb9P6pkYXrSCua4ixeWaVFSrsEcEmPQ"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-periphery/src/interfaces/INotifier.sol": {
-      "keccak256": "0xfdc5187a98240a1691aae98b7dd2444d4c2bfb4746f3c34de9f3d18399c17c5e",
-      "urls": [
-        "bzz-raw://683af56401ec4f8817e8dfe150e7b3febaf0baaf40efe8d0d0475f735275f746",
-        "dweb:/ipfs/QmRQ6S3nFnSc2jjDcQTvUJdTf4xKPojmvCkpvgyr6qTuVV"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-periphery/src/interfaces/IPermit2Forwarder.sol": {
-      "keccak256": "0xfad472937280e861125ff12aa6f9c2cf7440fbb20a2cc29485c24662ad4279c5",
-      "urls": [
-        "bzz-raw://31bfbc331f5972fc373d9469fd1ca1d14818db3275f21b7b590f20820cb4439d",
-        "dweb:/ipfs/QmX3Bv9wfYpAFZKBcxKsQSXUrSC8mqNBdzh6XVMS72aNx9"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-periphery/src/interfaces/IPoolInitializer_v4.sol": {
-      "keccak256": "0x2e4feda94650a2642039e0309ffdec480ee050bc40864bf5e1dba42bb4dc9e98",
-      "urls": [
-        "bzz-raw://964c178b4da8bab9ef898b94bb26d7c17cc44c5cf20485f55dcf5e9c7e1b1d92",
-        "dweb:/ipfs/QmVd2c3SYteyr5xZgUS4sDAiZF43dLwVAEKdCfvQbkZpRJ"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-periphery/src/interfaces/IPositionManager.sol": {
-      "keccak256": "0x62dfa0cbee8314ee7e6787db8bc1d364245c340f940875ac7ff11e89d074fc7e",
-      "urls": [
-        "bzz-raw://26f560c77d8a187bf93a710b827e3167eab3446922192fa8f92f208da2103834",
-        "dweb:/ipfs/Qmbzp5gSYdTpMBF9aAb2GraxMEQZb5LRJCyg8VaRUyjTFc"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-periphery/src/interfaces/ISubscriber.sol": {
-      "keccak256": "0x34ceadec4a63019680e543fe73197f198a55c825d86e18f327840354760b57e7",
-      "urls": [
-        "bzz-raw://31734feafe1fe162a0702ddf862fcc3bd97505931afb3c685033c0185d898051",
-        "dweb:/ipfs/QmQEANYVyaXTNzXKcjUVfPhLU71Bix5vxQH75BpPWMkWgw"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-periphery/src/interfaces/IUnorderedNonce.sol": {
-      "keccak256": "0xd7f32fee74dc7d1a3b078ca1263961baccaa6bf434c79e8fe0e092e30c3e0ec3",
-      "urls": [
-        "bzz-raw://e7d1e92d89d5f49c84aa82f3b259678c2c97a4473b22d753ca4411a6b0cec36d",
-        "dweb:/ipfs/QmNZoQyminStaAdaLqoDLoWaBU5QWrWjXFjmBm4aFhzL8i"
-      ],
-      "license": "MIT"
-    },
-    "node_modules/@uniswap/v4-periphery/src/libraries/PositionInfoLibrary.sol": {
-      "keccak256": "0xc5ddf96bd088bc87ea50a20f907fc932fb28397a42682a301b268a11b7f34078",
-      "urls": [
-        "bzz-raw://7dfeb4dc747537240f8167243e8066b6f5f08057386fb8bda93f82973fc18ad6",
-        "dweb:/ipfs/Qmby9DAAaHj8hjsMUnqY3vjqCHKGAKrT5EULMmeGcjbbGx"
       ],
       "license": "MIT"
     },
@@ -4167,27 +3579,11 @@
       ],
       "license": "MIT"
     },
-    "test/ComprehensivePhantomPortfolio.t.sol": {
-      "keccak256": "0xfa625a5c2c9e47a67bdd6d1c468d44c5a845c64029e4d06533cfcc189f4c8f64",
+    "test/IntegrationPhantomPortfolio.t.sol": {
+      "keccak256": "0xfab57f895025f5bd692c2c03b3503b009fc6ec9667afcfbc89b86eca27ca7c33",
       "urls": [
-        "bzz-raw://d0d88e8a21fb4b1f872530a8b4dda1fc6ee7d8357f4fa2c8444c1f95dc73eb0b",
-        "dweb:/ipfs/QmeH2hY5ZnyzU5a8CLbRft4KPcH9N7q3pvgw5pB8j41AAx"
-      ],
-      "license": "MIT"
-    },
-    "test/utils/Deployers.sol": {
-      "keccak256": "0x3d6779a2357b1591f80a75ac60aa1d9d16609ef14c048f3d1a943aa858634326",
-      "urls": [
-        "bzz-raw://49a38ab73a67858386b128fa658073c2cd6dfaf32fad593479d119c0a8273a3f",
-        "dweb:/ipfs/QmSCqfqqtdd9JSc1dY3SQkJAdCkCtebQdoUdYbfY4514pC"
-      ],
-      "license": "MIT"
-    },
-    "test/utils/Fixtures.sol": {
-      "keccak256": "0x9a85d75320bf4831d484d0df5e171fcedb1c3e3f855741e515196e371cca7fd1",
-      "urls": [
-        "bzz-raw://a8965daa9b98a2e5ba50d88eb6b5612955d207a31c19a4b3b0cdf8a45204b1dd",
-        "dweb:/ipfs/QmZDXS9ExxtY829YkDVwH1BTtTPwYXFD8W2PrS2pXSzcKU"
+        "bzz-raw://a79e766dd915f2a79eefb6778c15b3a91f37c0e88aaf1c2174762cd9dd2c685a",
+        "dweb:/ipfs/Qmat9omrNxXgSUCrjJseZW9XEw3x6bbc2NaEDwmdgUKNxE"
       ],
       "license": "MIT"
     },
@@ -4196,22 +3592,6 @@
       "urls": [
         "bzz-raw://abf16c583818cefcf1ae78af7afd62c3953603950463319e2665217de62a527c",
         "dweb:/ipfs/QmPPcCeXo2cY2Syztukzejt9mfEyp4RfejHxNPwqyPu6Xk"
-      ],
-      "license": "MIT"
-    },
-    "test/utils/forks/DeployPermit2.sol": {
-      "keccak256": "0xc7cba25091a032c8d2ac728ce65f64f958b61318c81932c0e6c82b92d73e6ecd",
-      "urls": [
-        "bzz-raw://320b67adea1f22ca2e3ef3a798b7a11a937b2f6d3772fb4558431618512d1f0b",
-        "dweb:/ipfs/QmUTsopj37WeArsMo3YQpMxrfpgY5cMrsy8EQGDh6ZLzep"
-      ],
-      "license": "MIT"
-    },
-    "test/utils/forks/Permit2Bytecode.sol": {
-      "keccak256": "0xdcc2d0338eba6c0ee562aafd87a19efca771178b012c9f4c10700c77eaee44ab",
-      "urls": [
-        "bzz-raw://54c5fb650a6f5af69b37ececa566ef1f8811ddfc24b381f9645667f11c6f592a",
-        "dweb:/ipfs/QmYB2ZHA1FkYgSpfZEMmWNzEgXcmcmvoPnEdRdvjSjfWbU"
       ],
       "license": "MIT"
     }
