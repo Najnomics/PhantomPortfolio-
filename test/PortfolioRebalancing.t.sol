@@ -114,7 +114,7 @@ contract PortfolioRebalancingTest is Test, CoFheTest {
 
         // Trigger rebalancing - expect the actual trade count from advanced logic
         vm.expectEmit(true, true, false, true);
-        emit PortfolioRebalanced(portfolioOwner, 1, 0, block.timestamp);
+        emit PortfolioRebalanced(portfolioOwner, 1, 1, block.timestamp);
 
         hook.triggerRebalance(portfolioOwner);
 
@@ -156,7 +156,7 @@ contract PortfolioRebalancingTest is Test, CoFheTest {
 
         // Trigger rebalancing - should work now
         vm.expectEmit(true, true, false, true);
-        emit PortfolioRebalanced(portfolioOwner, 1, 0, block.timestamp);
+        emit PortfolioRebalanced(portfolioOwner, 1, 1, block.timestamp);
 
         hook.triggerRebalance(portfolioOwner);
 

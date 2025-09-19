@@ -239,7 +239,7 @@ contract PhantomPortfolio is BaseHook, ReentrancyGuardTransient {
         portfolio.toleranceBand = FHE.asEuint32(toleranceBand);
         portfolio.autoRebalanceEnabled = FHE.asEbool(true);
         portfolio.lastRebalance = FHE.asEuint64(block.timestamp);
-        portfolio.lastRebalanceTime = block.timestamp;
+        portfolio.lastRebalanceTime = 0; // Allow immediate rebalancing
         portfolio.rebalanceFrequencySeconds = 3600; // Default to 1 hour to match test
         portfolio.totalValue = FHE.asEuint128(1000000); // Initialize with a default total value
 
@@ -259,6 +259,9 @@ contract PhantomPortfolio is BaseHook, ReentrancyGuardTransient {
         if (!_needsRebalancing(portfolio)) {
             revert RebalanceNotNeeded();
         }
+        
+        // Update last rebalance time
+        portfolio.lastRebalanceTime = block.timestamp;
         
         // Create a simple rebalance order for testing
         EncryptedRebalanceOrder[] memory orders = new EncryptedRebalanceOrder[](1);

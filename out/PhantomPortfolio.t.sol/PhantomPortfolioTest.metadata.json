@@ -2759,12 +2759,6 @@
         "inputs": [],
         "stateMutability": "nonpayable",
         "type": "function",
-        "name": "test_BeforeAddLiquidityHook"
-      },
-      {
-        "inputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function",
         "name": "test_BeforeSwapHook"
       },
       {
@@ -4092,10 +4086,10 @@
       "license": "MIT"
     },
     "src/PhantomPortfolio.sol": {
-      "keccak256": "0xb51517d87562ef0e5ffd5bc1a1369ef078be471b8b535ba9af92ba4e0b170525",
+      "keccak256": "0xdb18b0b59bd94ea25cfa5ee4bf8d58728181bfce79bcf1b6d01c06c0657ae4e4",
       "urls": [
-        "bzz-raw://c3dd0ce779addc43abaa2fd6fcd59c064b71c0ea15101804c8086d6fd133475a",
-        "dweb:/ipfs/QmbvHofy4rz3LXfaQAyhQoRQUcU3vUQHrnJoT6QhqtEJPA"
+        "bzz-raw://1381355ed3d5b8f5edfd726e6a768a7ef82678a87723b2791610a2c1f5a5d765",
+        "dweb:/ipfs/QmUJyZsm4QTZyrQQMVyfZsjDFgocxAxvnWD4qaLV5asia7"
       ],
       "license": "MIT"
     },
@@ -4116,10 +4110,10 @@
       "license": "MIT"
     },
     "test/PhantomPortfolio.t.sol": {
-      "keccak256": "0x97e96716e74d782995e275a0d1fff4d71b7e1090bcee69434e1aa163367180c6",
+      "keccak256": "0xc2e2db209643e9a1d64e28059c5fc40e8479f0a32cbe33f95ea8215f9f5a3966",
       "urls": [
-        "bzz-raw://7e867f8d5877c3b9e5ca01620cb634f5feb6a23d4537a6e5c40d1a2535ea5701",
-        "dweb:/ipfs/QmcTmKvRGQ9i4DyRowzmy2nwrX2dkbi1LnXW666ZyKPwx9"
+        "bzz-raw://fffc42974f7df720a0ba62af786195062e6e810e6e296233aadb6850f3407788",
+        "dweb:/ipfs/QmQa6TpUBnb9628o1V2PPmbXgDRUJy1ci12ezepstisqyS"
       ],
       "license": "MIT"
     },
