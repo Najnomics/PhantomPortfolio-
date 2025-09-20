@@ -2,7 +2,7 @@
 pragma solidity ^0.8.26;
 
 import {Test, console} from "forge-std/Test.sol";
-import {PortfolioFHEPermissions} from "../src/lib/PortfolioFHEPermissions.sol";
+import {PortfolioFHEPermissions} from "../../src/lib/PortfolioFHEPermissions.sol";
 import {CoFheTest} from "@fhenixprotocol/cofhe-mock-contracts/CoFheTest.sol";
 import {FHE, euint128, euint64, euint32} from "@fhenixprotocol/cofhe-mock-contracts/CoFheTest.sol";
 

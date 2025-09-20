@@ -2,7 +2,7 @@
 pragma solidity ^0.8.26;
 
 import {Test} from "forge-std/Test.sol";
-import {PhantomPortfolio} from "../src/PhantomPortfolio.sol";
+import {PhantomPortfolio} from "../../src/PhantomPortfolio.sol";
 import {Hooks} from "@uniswap/v4-core/src/libraries/Hooks.sol";
 
 /// @title Basic PhantomPortfolio Test

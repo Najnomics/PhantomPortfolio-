@@ -2801,7 +2801,7 @@
       "bytecodeHash": "ipfs"
     },
     "compilationTarget": {
-      "test/PhantomPortfolioSecurity.t.sol": "PhantomPortfolioSecurityTest"
+      "test/security/PhantomPortfolioSecurity.t.sol": "PhantomPortfolioSecurityTest"
     },
     "evmVersion": "cancun",
     "libraries": {},
@@ -3688,11 +3688,11 @@
       ],
       "license": "MIT"
     },
-    "test/PhantomPortfolioSecurity.t.sol": {
-      "keccak256": "0x2b092216a704e28668b94bf5299829e02089708bf95f805829a674408fe0c63c",
+    "test/security/PhantomPortfolioSecurity.t.sol": {
+      "keccak256": "0x8ef739bdda3587f49c8b9c6421ecfd3cb356b63ea4b1c55a1ea0b49ffd5b0d23",
       "urls": [
-        "bzz-raw://0a85528922a8264f719a2d3fb64ad3fca82a503347d46de263c5e30a35330d94",
-        "dweb:/ipfs/QmTgrGn566Pnwii3BbvXvU8EgGDXeqQfzpjTBbsxszA5Sa"
+        "bzz-raw://b9467e7adadf4aef994bfdbe7c992f45c9e0369fdde4fb72ab6acd1eae1c19f4",
+        "dweb:/ipfs/QmNTP9Ne98CGq15Edefysn8WKBzUxKX5UVfEMD3ydSQywY"
       ],
       "license": "MIT"
     },

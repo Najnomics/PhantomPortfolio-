@@ -2865,7 +2865,7 @@
       "bytecodeHash": "ipfs"
     },
     "compilationTarget": {
-      "test/SimpleCoverageTest.t.sol": "SimpleCoverageTest"
+      "test/coverage/SimpleCoverageTest.t.sol": "SimpleCoverageTest"
     },
     "evmVersion": "cancun",
     "libraries": {},
@@ -3536,11 +3536,11 @@
       ],
       "license": "MIT"
     },
-    "test/SimpleCoverageTest.t.sol": {
-      "keccak256": "0xbaa5a11bef4215ad407927abe1ffb4bca757e6abdd0bc44fa356cba8e9e67ae5",
+    "test/coverage/SimpleCoverageTest.t.sol": {
+      "keccak256": "0xdd573404843072efa288fe7c8fdcd51b22ec76b3f790ff6acb029947435a2227",
       "urls": [
-        "bzz-raw://7b7a28c33752dc0e061d89f5c4e775d5b6153dc073c9b3a49a2c4111c84b2b1f",
-        "dweb:/ipfs/Qmb7N7A2ZSkRDmgDxX1os7jjnvaxKTfKcdqDXK4RDLF9Ac"
+        "bzz-raw://f507742851e099a80530034eaa1c987ddca09d5e61bd98f36880d951d193cd28",
+        "dweb:/ipfs/QmR8PVSjNxsR5Vz8f3dhtSMQFhs1P6QmRUjUmNAW1zzR3i"
       ],
       "license": "MIT"
     },

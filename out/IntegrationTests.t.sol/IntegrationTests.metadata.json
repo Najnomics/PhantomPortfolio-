@@ -2907,7 +2907,7 @@
       "bytecodeHash": "ipfs"
     },
     "compilationTarget": {
-      "test/IntegrationTests.t.sol": "IntegrationTests"
+      "test/integration/IntegrationTests.t.sol": "IntegrationTests"
     },
     "evmVersion": "cancun",
     "libraries": {},
@@ -3578,11 +3578,11 @@
       ],
       "license": "MIT"
     },
-    "test/IntegrationTests.t.sol": {
-      "keccak256": "0x2b5557602225052c7749d936894c8146206f9f5ff0c7e2b02f9624bd6c64b52c",
+    "test/integration/IntegrationTests.t.sol": {
+      "keccak256": "0x913e464c5545f3c9febb76ea4903416c7ac2a0f6bb100607efc16ab28060b0c2",
       "urls": [
-        "bzz-raw://1815bc74709512ea11d76bd04bdad774ed35d9af6e3a5f26604ec2caa5c31bf0",
-        "dweb:/ipfs/Qma5mzV4oREnCtxx9SumwEAonJ8wd2ZfEf6M3yso1ubBWc"
+        "bzz-raw://497bd636a409efd1c64ce5dd6a832455630d881e0dcc42cc11f58314b1e1aae1",
+        "dweb:/ipfs/QmWRFBnujAX8aeE7zf8Jscf8RYhSSvoZcMesfLmyMNboGi"
       ],
       "license": "MIT"
     },

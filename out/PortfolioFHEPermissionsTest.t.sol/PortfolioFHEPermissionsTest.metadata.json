@@ -2814,7 +2814,7 @@
       "bytecodeHash": "ipfs"
     },
     "compilationTarget": {
-      "test/PortfolioFHEPermissionsTest.t.sol": "PortfolioFHEPermissionsTest"
+      "test/unit/PortfolioFHEPermissionsTest.t.sol": "PortfolioFHEPermissionsTest"
     },
     "evmVersion": "cancun",
     "libraries": {},
@@ -3213,11 +3213,11 @@
       ],
       "license": "MIT"
     },
-    "test/PortfolioFHEPermissionsTest.t.sol": {
-      "keccak256": "0xf4e4177eeea5c0afa9b6a2622192adb360f30d679e7cfd4a6ec82bc91eaf0f15",
+    "test/unit/PortfolioFHEPermissionsTest.t.sol": {
+      "keccak256": "0x25976a7c3fddd642e13713a0e9ecad29edd3c9693191d30fe767412e6baaf476",
       "urls": [
-        "bzz-raw://b68f9488bc0322a911c8bf47e7dcc2383149d7a2be7749594cc5bb45f8b1c035",
-        "dweb:/ipfs/QmfGn5KDC6AC2worRmNph6T1UjyqkNYSzgCqKSPgbGaScw"
+        "bzz-raw://9b0ae558a34e5fa037bf27ef3624aee0fb4e9c471b80175f32056c5e34656f97",
+        "dweb:/ipfs/QmNm2Fv5zYGfVyCT8eyVNbNWZRueSeXEDGxgpPJDbt8MZp"
       ],
       "license": "MIT"
     }

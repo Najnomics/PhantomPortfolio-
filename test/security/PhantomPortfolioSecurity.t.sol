@@ -22,8 +22,8 @@ import {InEuint128, InEuint64, InEuint32} from "@fhenixprotocol/cofhe-contracts/
 import {CoFheTest} from "@fhenixprotocol/cofhe-mock-contracts/CoFheTest.sol";
 
 // Local Imports
-import {PhantomPortfolio} from "../src/PhantomPortfolio.sol";
-import {PortfolioToken} from "./utils/PortfolioToken.sol";
+import {PhantomPortfolio} from "../../src/PhantomPortfolio.sol";
+import {PortfolioToken} from "../../test/utils/PortfolioToken.sol";
 
 /// @title PhantomPortfolio Security Tests
 /// @notice Security-focused tests for edge cases and attack vectors

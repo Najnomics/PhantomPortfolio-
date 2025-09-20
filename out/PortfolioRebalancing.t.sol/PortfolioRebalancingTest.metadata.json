@@ -2797,7 +2797,7 @@
       "bytecodeHash": "ipfs"
     },
     "compilationTarget": {
-      "test/PortfolioRebalancing.t.sol": "PortfolioRebalancingTest"
+      "test/coverage/PortfolioRebalancing.t.sol": "PortfolioRebalancingTest"
     },
     "evmVersion": "cancun",
     "libraries": {},
@@ -3468,11 +3468,11 @@
       ],
       "license": "MIT"
     },
-    "test/PortfolioRebalancing.t.sol": {
-      "keccak256": "0x0a8531414ec33dd8c8b3121295fa50416755e550fc12078ed7e98016a5c82109",
+    "test/coverage/PortfolioRebalancing.t.sol": {
+      "keccak256": "0xfcc34f53ec094263ce3da1d06baaab8e277daa52f44b57d326c35dc9d21c2a89",
       "urls": [
-        "bzz-raw://eeb783f44dacbc9ef6334116aa6960585ad7ade8573dbb83e197f139fa27602d",
-        "dweb:/ipfs/QmaGpnfye7ifPdthe8J5GKAt1Gkk2LqxYwj8NRpm5beeVb"
+        "bzz-raw://66a7100da32e2052780279fc52a9aef21499aa25a40b3f63e17b01ec8630e3e9",
+        "dweb:/ipfs/QmfZv58gCYmTf2DuyhtyZUw4UGRkXDm1LGWNaJak3PLDp5"
       ],
       "license": "MIT"
     },

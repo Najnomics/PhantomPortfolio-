@@ -3043,7 +3043,7 @@
       "bytecodeHash": "ipfs"
     },
     "compilationTarget": {
-      "test/ComprehensiveFuzzTests.t.sol": "ComprehensiveFuzzTests"
+      "test/fuzz/ComprehensiveFuzzTests.t.sol": "ComprehensiveFuzzTests"
     },
     "evmVersion": "cancun",
     "libraries": {},
@@ -3714,11 +3714,11 @@
       ],
       "license": "MIT"
     },
-    "test/ComprehensiveFuzzTests.t.sol": {
-      "keccak256": "0x5feb34511a06b382bb760cceb51c892f530168ba4750487bff04c67908b21157",
+    "test/fuzz/ComprehensiveFuzzTests.t.sol": {
+      "keccak256": "0xde1465d4680f74610b1c380954ffb7df446d15235251d6409075f9ecc0b481b6",
       "urls": [
-        "bzz-raw://7cf7ec65f155df866b08a6fb0bc197f35812ec740e50a1794bd4c2c5b252f61c",
-        "dweb:/ipfs/QmdCY43ok4G4xag18CDZ8tb5pCVd3ALHvweHN2eLoiYwV2"
+        "bzz-raw://7f437ea869ab19bf7f6298030aa4e709489791e907f050700a458389fa84cc27",
+        "dweb:/ipfs/QmPnGoTQiAKinCFzxKes5z1FoVBZvurq5vviPdFs7NVFmJ"
       ],
       "license": "MIT"
     },

@@ -2961,7 +2961,7 @@
       "bytecodeHash": "ipfs"
     },
     "compilationTarget": {
-      "test/EdgeCaseTests.t.sol": "EdgeCaseTests"
+      "test/edge-cases/EdgeCaseTests.t.sol": "EdgeCaseTests"
     },
     "evmVersion": "cancun",
     "libraries": {},
@@ -3632,11 +3632,11 @@
       ],
       "license": "MIT"
     },
-    "test/EdgeCaseTests.t.sol": {
-      "keccak256": "0x307259c3557a776ffa79e94f940b65ba5e8ca15a552a1e9ebfdbefcb34f061d8",
+    "test/edge-cases/EdgeCaseTests.t.sol": {
+      "keccak256": "0x824f8e03a93dd61e92198c44a7fb5eafade92481ded10837e6e16545f4a5903f",
       "urls": [
-        "bzz-raw://266b3a683421cdd223e8c0f69e147a0af047453f5498b4bb533964975b95f100",
-        "dweb:/ipfs/QmYRZvnXWZvuPTdxomWQEcfhoK1eS26DwGRwre1dnvvQcV"
+        "bzz-raw://41af855ca90c05b811a0721fc17b7976d99e445489b26cd0ee0c593f0246b2bb",
+        "dweb:/ipfs/QmcgCGFrrXA5x7bmj32qubrLFsBdsqgyGijy2quueLsQLn"
       ],
       "license": "MIT"
     },
